@@ -9,6 +9,13 @@ Utilizar aprendizado de máquina para resolver várias tarefas relacionadas à a
 3. **Predição do Número de Pagamentos**: Usar um modelo de regressão linear para prever quantos pagamentos de seguro um novo cliente provavelmente receberá.
 4. **Mascaramento de Dados Pessoais**: Desenvolver um algoritmo de ofuscação de dados que proteja informações pessoais, garantindo que a qualidade do modelo de predição não seja comprometida.
 
+## Ferramentas e Bibliotecas Utilizadas
+- **Python**: Linguagem principal utilizada para a análise.
+- **Pandas**: Manipulação e análise de dados.
+- **Scikit-learn**: Modelagem preditiva e machine learning.
+- **NumPy**: Computação numérica.
+- **Seaborn**: Visualização de dados, gráficos informativos e atraentes.
+
 ## Descrição dos Dados
 O conjunto de dados é armazenado no arquivo `insurance_us.csv` e contém as seguintes características:
 - **Sexo**: Gênero do segurado.
@@ -18,13 +25,6 @@ O conjunto de dados é armazenado no arquivo `insurance_us.csv` e contém as seg
 
 **Alvo**:
 - **Número de Pagamentos de Seguro**: Total de pagamentos recebidos por um segurado nos últimos cinco anos.
-
-## Ferramentas e Bibliotecas Utilizadas
-- **Python**: Linguagem principal utilizada para a análise.
-- **Pandas**: Manipulação e análise de dados.
-- **Scikit-learn**: Modelagem preditiva e machine learning.
-- **NumPy**: Computação numérica.
-- **Seaborn**: Visualização de dados, gráficos informativos e atraentes.
 
 ## Instruções do Projeto
 1. **Carregamento dos Dados**:
