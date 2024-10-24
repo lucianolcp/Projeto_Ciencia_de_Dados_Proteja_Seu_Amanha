@@ -3,11 +3,28 @@
 ## Visão Geral
 Utilizar aprendizado de máquina para resolver várias tarefas relacionadas à análise de clientes e previsões de seguros, para companhia de seguros **Proteja Seu Amanhã**. Este projeto aborda quatro tarefas principais que visam melhorar a eficiência da empresa e a experiência do cliente.
 
-## Tarefas do Projeto
+## Objetivos
 1. **Encontrar Clientes Semelhantes**: Identificar clientes com perfis semelhantes a um cliente específico para auxiliar os agentes de marketing.
 2. **Predição de Pagamentos de Seguro**: Criar um modelo para prever se um novo cliente provavelmente receberá um pagamento de seguro, comparando com um modelo dummy.
 3. **Predição do Número de Pagamentos**: Usar um modelo de regressão linear para prever quantos pagamentos de seguro um novo cliente provavelmente receberá.
 4. **Mascaramento de Dados Pessoais**: Desenvolver um algoritmo de ofuscação de dados que proteja informações pessoais, garantindo que a qualidade do modelo de predição não seja comprometida.
+
+## Descrição dos Dados
+O conjunto de dados é armazenado no arquivo `insurance_us.csv` e contém as seguintes características:
+- **Sexo**: Gênero do segurado.
+- **Idade**: Idade do segurado.
+- **Salário**: Renda do segurado.
+- **Número de Familiares**: Quantidade de familiares do segurado.
+
+**Alvo**:
+- **Número de Pagamentos de Seguro**: Total de pagamentos recebidos por um segurado nos últimos cinco anos.
+
+## Ferramentas e Bibliotecas Utilizadas
+- **Python**: Linguagem principal utilizada para a análise.
+- **Pandas**: Manipulação e análise de dados.
+- **Scikit-learn**: Modelagem preditiva e machine learning.
+- **NumPy**: Computação numérica.
+- **Seaborn**: Visualização de dados, gráficos informativos e atraentes.
 
 ## Instruções do Projeto
 1. **Carregamento dos Dados**:
@@ -30,24 +47,6 @@ Utilizar aprendizado de máquina para resolver várias tarefas relacionadas à a
    - Verificação da integridade dos valores previstos.
 8. **Conclusões e Aprendizados**:
    - Reflexão sobre as descobertas e habilidades adquiridas durante o projeto.
-
-
-## Descrição dos Dados
-O conjunto de dados é armazenado no arquivo `insurance_us.csv` e contém as seguintes características:
-- **Sexo**: Gênero do segurado.
-- **Idade**: Idade do segurado.
-- **Salário**: Renda do segurado.
-- **Número de Familiares**: Quantidade de familiares do segurado.
-
-**Alvo**:
-- **Número de Pagamentos de Seguro**: Total de pagamentos recebidos por um segurado nos últimos cinco anos.
-
-## Ferramentas e Bibliotecas Utilizadas
-- **Python**: Linguagem principal utilizada para a análise.
-- **Pandas**: Manipulação e análise de dados.
-- **Scikit-learn**: Modelagem preditiva e machine learning.
-- **NumPy**: Computação numérica.
-- **Seaborn**: Visualização de dados, gráficos informativos e atraentes.
 
 ## Conclusão
 Os resultados demonstram que a ofuscação dos dados não compromete a precisão do modelo. As métricas de desempenho e o REQM para os dados originais e ofuscados são idênticos, evidenciando que a técnica de ofuscação preserva as propriedades relevantes para a regressão linear. Além disso, os valores previstos para ambas as versões dos dados são iguais, confirmando que a transformação não afeta as previsões. Essa abordagem de ofuscação se mostra eficaz, permitindo a proteção da privacidade sem sacrificar a qualidade da análise preditiva.
