@@ -1,4 +1,4 @@
-# Projeto Proteja Seu Amanhã: Aprendizado de Máquina para Seguros
+# Projeto Proteja Seu Amanhã: aprendizado de máquina para seguros
 
 ## Visão Geral
 Utilizar aprendizado de máquina para resolver tarefas relacionadas à análise de clientes e previsões de seguros, para companhia de seguros **Proteja Seu Amanhã**. Este projeto aborda quatro tarefas principais que visam melhorar a eficiência da empresa e a experiência do cliente.
